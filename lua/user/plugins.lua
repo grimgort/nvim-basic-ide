@@ -667,6 +667,8 @@ return packer.startup(function(use)
 	use({
 		"vim-test/vim-test",
 	})
+  use({"brymer-meneses/grammar-guard.nvim"})
+  use({"p00f/clangd_extensions.nvim"})
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
